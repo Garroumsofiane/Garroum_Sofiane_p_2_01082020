@@ -1,0 +1,238 @@
+body
+{
+    font-family: 'Raleway', sans-serif; 
+}
+#bloc_page
+{
+    width: 1440px;
+    height: 1884px;
+}
+.logo
+{
+    width: 101px;
+    height: 37px;
+}
+.flexaround
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.flexbetween
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.taillelien
+{
+    width: 45%;  
+}
+.couleurbleu1
+{
+    color:#0065FC;
+}
+.couleur
+{
+    color: black;
+}
+.decorationnone
+{
+    text-decoration: none;
+}
+.navbordure
+{
+    border-top: 1px solid #0065FC;
+}
+.flexcentré
+{
+    
+    display: flex;
+    text-align: start;
+}
+
+.barrederecherche
+{
+    height: 51px;
+    width: 420px;
+    display: flex;
+    margin-bottom:30px;
+    
+}
+.fa-map-marker-alt
+{
+    width: 51px;
+    background-color:#F2F2F2  ;
+    border-radius: 20px 0px 0px 20px;
+    justify-content: center; 
+    text-align: center;
+    padding-top: 15px;
+}
+.champ-recherche 
+{
+    height: 51px;
+    width: 225px;
+    border-top:  1px solid  #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    border-left: 10px solid white;
+    border-right: 2px solid white;
+}
+::-webkit-input-placeholder
+{
+   font-weight:bold  ;
+   color: black;
+   font-size: medium;
+}
+.btn-recherche
+{
+    width: 138px;
+    background-color: #0065FC ;
+    color: white;
+    border-radius: 0px 20px 20px 0px;
+    font-size:large;
+    border: none;
+
+}
+.recherchefiltre
+{
+    width: 935px;
+    height: 51px;
+    display: flex;
+    align-items: flex-start;
+}
+.recherchefiltretitre
+{
+    height: 51px;
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+    margin-right: 30px;
+    margin-left: 10px;
+    padding-top: 15px;
+}
+.recherchefiltreicon
+{  
+    border-radius: 40px 40px 40px 40px;
+    border:  3px solid #F2F2F2;
+    border-left: none;
+    margin-right: 23px;
+    border-left: none;
+}  
+   
+.recherchefiltresfiltretitre
+{   
+    height:51px ;
+    color: black;
+    font-weight: bold;
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 0px 40px 40px 0px;
+    margin-right: 15px;
+    font-size: medium;
+}
+.iconfiltre
+{   
+    border: 15px solid   #DEEBFF;
+    border-radius: 25px 25px 25px 25px;
+    color:#0065FC;
+    background-color:#DEEBFF;
+}
+.resultatrecherche
+{
+    width: 450px;
+    height: px;
+    display: flex;
+
+    
+    margin-top: 40px;
+    margin-left: px;
+    
+    
+    
+    
+}
+.resultaticon
+{
+   margin-right:10px;
+   
+   margin-bottom: px;
+}
+
+.fa-info
+{
+    width: 23px;
+    height: 23px;
+    color:#0065FC ;
+    border: 2px solid #F2F2F2 ;
+    border-radius: 50%;
+    
+}
+.hebergement_marseille
+{
+    width: 882px;
+    height: 627px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 0px;
+    padding-left: 40px;
+}
+.imghebergement
+{
+    width: 234px;
+    height: 114px;
+    border-radius: 20px 20px 0px 0px;
+}
+.cartehebergement
+{   
+    border-radius:20px 20px 20px 20px; 
+    border: 5px solid white;
+    background-color: white;
+    margin-right: 30px;
+    width: 234px;
+    height: 201px;
+    margin-top: 20px;
+    
+}
+.bordure_hebergement
+{
+    padding-left: px;
+    width: 881px;
+    height: 627px;
+    background-color: #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+  
+}
+.hebergementprix
+{
+    
+    line-height: 3px;
+}
+
+.iconetoile
+{
+    color: blue;
+    line-height: 40px;
+}
+
+.hebergementcartetitre
+{
+     line-height: 1px;
+     font-weight: bold;
+     color: black;
+}
+a{
+    text-decoration: none;
+}
+.herbergementpopulaireimgimg
+{
+
+}
+.titrehebergement
+{
+    padding-left: 40px;
+    padding-top: 25px;
+
+}
