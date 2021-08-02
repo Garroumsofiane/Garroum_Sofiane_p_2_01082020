@@ -176,6 +176,9 @@ body
     height: 627px;
     display: flex;
     flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: center;
     padding-bottom: 0px;
     padding-left: 40px;
 }
@@ -226,13 +229,78 @@ body
 a{
     text-decoration: none;
 }
-.herbergementpopulaireimgimg
-{
 
-}
 .titrehebergement
 {
     padding-left: 40px;
     padding-top: 25px;
 
 }
+.afficherplusherbergement
+{
+    align-items: flex-start;
+}
+
+.herbergementpopulaireimgimg
+{
+    width: 130px;
+    height: 135px;
+    border-radius: 20px 20px 20px 20px;
+    
+}
+.hébergementPopulaire
+{   flex-direction: column;
+    width:420px;
+    height: 627px;
+    background-color: #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 40px;
+    padding-left: 35px;
+}
+.hebergement_hebergementpopulaire
+{
+    display: flex;
+}
+.hebergementcartepopulaire
+{
+   display: flex;
+   width: 343px;
+   height: 144px;
+   border: 5px solid white;
+   border-radius: 20px 20px 20px 20px;
+   background-color: white;
+}
+.hebergementcartetitre1
+{
+    color: black;
+}
+.hebergement_populaire_titre_icon
+{
+    display: flex;
+    width: 343px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-line-chart
+{
+    align-items: flex-end;
+    
+}
+.hebergement_populaire
+{
+    width: 420px;
+    height: 627px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+}
+
+
+
+
