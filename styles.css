@@ -145,7 +145,8 @@ body
     width: 450px;
     height: px;
     display: flex;
-
+    align-items: center;
+    justify-content: space-between;
     
     margin-top: 40px;
     margin-left: px;
@@ -168,6 +169,7 @@ body
     color:#0065FC ;
     border: 2px solid #F2F2F2 ;
     border-radius: 50%;
+    text-align: center;
     
 }
 .hebergement_marseille
@@ -300,6 +302,61 @@ a{
     align-content: center;
     align-items: flex-start;
 }
+.vieuxport
+{
+    height: 392px;
+    width: 300px;
+}
+.fort
+{
+    height: 180px;
+    width: 300px;
+}
+.ile_frioul
+{
+    height: 109px;
+    width: 300px;
+}
+.parc
+{
+    height: 392px;
+    width: 300px;
+}
+.notredame
+{
+    height: 140px;
+    width: 300px;
+}
+.longchamp
+{
+    width: 300px;
+    height: 153px;
+}
+.activité
+{
+    width: 1340px;
+    height: 447px;
+    display: flex;
+    justify-content: space-between; 
+    
+}
+.carteimage_vieux_parc
+{
+    height: 448px;
+    width: 300px;
+    ;
+    
+}
+.activitécarteimage_fort
+{
+    height:237px;
+    width: 300px;
+    border-radius: 20px 20px 20px 20px
+    
+}
+
+   
+
 
 
 
