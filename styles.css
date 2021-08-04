@@ -6,19 +6,33 @@ body
 {
     width: 1440px;
     height: 1884px;
-}
-.logo
-{
-    width: 101px;
-    height: 37px;
-}
-.flexaround
-{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
-    
 }
+header
+{
+    width: 1335px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.lien_navigation_logo
+{
+    width: 1335px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.logo{
+    font-size: x-large ;
+
+} 
+
+
 .flexbetween
 {
     display: flex;
@@ -28,7 +42,11 @@ body
 
 .taillelien
 {
-    width: 45%;  
+    width: 38%; 
+    height: 70px;
+    display: flex;
+    align-items:stretch;     
+    justify-content: space-evenly; 
 }
 .couleurbleu1
 {
@@ -52,11 +70,14 @@ body
     display: flex;
     text-align: start;
 }
-
+.titre_principale_phrase
+{
+    width: 1345px;
+}
 .barrederecherche
 {
     height: 51px;
-    width: 420px;
+    width: 1335px;
     display: flex;
     margin-bottom:30px;
     
@@ -97,7 +118,7 @@ body
 }
 .recherchefiltre
 {
-    width: 935px;
+    width: 1345px;
     height: 51px;
     display: flex;
     align-items: flex-start;
@@ -146,8 +167,8 @@ body
     height: px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     
+    width: 1345px;
     margin-top: 40px;
     margin-left: px;
     
@@ -183,6 +204,10 @@ body
     align-items: center;
     padding-bottom: 0px;
     padding-left: 40px;
+}
+.hebergement_titre
+{
+    font-size: large;
 }
 .imghebergement
 {
@@ -236,6 +261,7 @@ a{
 {
     padding-left: 40px;
     padding-top: 25px;
+    font-size: large;
 
 }
 .afficherplusherbergement
@@ -247,7 +273,8 @@ a{
 {
     width: 130px;
     height: 135px;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px 0px 0px 20px;
+    margin-right: 20px;
     
 }
 .hébergementPopulaire
@@ -256,18 +283,22 @@ a{
     height: 627px;
     background-color: #F2F2F2;
     border-radius: 20px 20px 20px 20px;
-    margin-left: 40px;
-    padding-left: 35px;
+    
+    
 }
 .hebergement_hebergementpopulaire
 {
     display: flex;
+    width: 1338px;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    margin-top: 40px;
 }
 .hebergementcartepopulaire
 {
    display: flex;
    width: 343px;
-   height: 144px;
+   height: 135px;
    border: 5px solid white;
    border-radius: 20px 20px 20px 20px;
    background-color: white;
@@ -287,9 +318,11 @@ a{
     align-items: center;
 }
 
+
 .fa-line-chart
 {
     align-items: flex-end;
+    font-size: x-large;
     
 }
 .hebergement_populaire
@@ -299,65 +332,126 @@ a{
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    align-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 .vieuxport
 {
     height: 392px;
-    width: 300px;
+    width: 303px;
 }
 .fort
 {
     height: 180px;
-    width: 300px;
+    width: 303px;
 }
 .ile_frioul
 {
     height: 109px;
-    width: 300px;
+    width: 303px;
 }
 .parc
 {
     height: 392px;
-    width: 300px;
+    width: 303px;
 }
 .notredame
 {
     height: 140px;
-    width: 300px;
+    width: 303px;
 }
 .longchamp
 {
-    width: 300px;
-    height: 153px;
+    width: 303px;
+    height: 156px;
 }
 .activité
 {
-    width: 1340px;
-    height: 447px;
+    width: 1338px;
+    height: 448px;
     display: flex;
     justify-content: space-between; 
-    
 }
-.carteimage_vieux_parc
+.activitécarteimage_vieux_parc
 {
     height: 448px;
-    width: 300px;
-    ;
-    
+    width: 303px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #F2F2F2 ;
 }
 .activitécarteimage_fort
 {
-    height:237px;
-    width: 300px;
-    border-radius: 20px 20px 20px 20px
-    
+    height: 237px;
+    width: 303px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #F2F2F2 ;
+}
+.activitéimage{
+   border-radius: 20px 20px 0px 0px ;
+}
+.bloc_fort_ile
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-   
-
-
-
-
-
+.bloc_notredame_longchamp
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.activitécarteimage_ile
+{
+    height: 165px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #F2F2F2 ;
+}
+.activitécarteimage_longchamp
+{
+    height: 212px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #F2F2F2 ;
+}
+.activitécarteimage_notre_dame
+{
+    height: 195px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #F2F2F2 ;
+}
+.carteimage_vieux_parc
+{
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #F2F2F2 ;
+}
+.activitécartetitre
+{
+    color: black;
+}
+.footer
+{
+    display: flex;
+    width: 1030px;
+    justify-content: space-between;
+    padding-left: 45px;
+}
+.footerliencolonne
+{
+    display: flex;
+    flex-direction: column;
+}
+.bordure_footer
+{
+    width: 1440px;
+    height: 217px;
+    background-color: #F2F2F2;
+    margin-top: 63px;
+}
+.footercoloneliencolone
+{
+    color: darkgrey;
+}
+.titreactivité
+{
+    width: 1345px;
+}
