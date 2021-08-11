@@ -16,6 +16,7 @@ header
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    margin-top: 30px;
 }
 .lien_navigation_logo
 {
@@ -66,7 +67,6 @@ header
 }
 .flexcentré
 {
-    
     display: flex;
     text-align: start;
 }
@@ -74,13 +74,26 @@ header
 {
     width: 1345px;
 }
+.titreh2
+{
+    
+    margin-bottom: 3.92;
+    margin-bottom: 1px;
+
+
+}
+.phrasedessoustitreh2
+{
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+
 .barrederecherche
 {
     height: 51px;
     width: 1335px;
     display: flex;
     margin-bottom:30px;
-    
 }
 .fa-map-marker-alt
 {
@@ -163,47 +176,39 @@ header
 }
 .resultatrecherche
 {
-    width: 450px;
-    height: px;
     display: flex;
     align-items: center;
-    
-    width: 1345px;
+    width: 1340px;
     margin-top: 40px;
-    margin-left: px;
-    
-    
-    
-    
+    padding-left: 10px;
 }
 .resultaticon
 {
    margin-right:10px;
-   
-   margin-bottom: px;
+ 
 }
-
-.fa-info
+.taillefa-info
 {
     width: 23px;
-    height: 23px;
-    color:#0065FC ;
-    border: 2px solid #F2F2F2 ;
+    height: 23px; border: 2px solid #F2F2F2 ;
     border-radius: 50%;
     text-align: center;
-    
+    margin-right: 10px;
+}
+.fa-info
+{
+    width: auto;
+    color:#0065FC;
+    height: auto;
+    font-size: small;
 }
 .hebergement_marseille
 {
-    width: 882px;
-    height: 627px;
+    width: px;
+    height: px;
     display: flex;
     flex-wrap: wrap;
-    align-content: flex-start;
-    justify-content: flex-start;
-    align-items: center;
-    padding-bottom: 0px;
-    padding-left: 40px;
+    justify-content: center;
 }
 .hebergement_titre
 {
@@ -214,39 +219,54 @@ header
     width: 234px;
     height: 114px;
     border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
 .cartehebergement
 {   
     border-radius:20px 20px 20px 20px; 
     border: 5px solid white;
     background-color: white;
-    margin-right: 30px;
     width: 234px;
     height: 201px;
-    margin-top: 20px;
-    
+    margin-bottom: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
 }
+
 .bordure_hebergement
 {
-    padding-left: px;
+    
     width: 881px;
     height: 627px;
     background-color: #F2F2F2;
     border-radius: 20px 20px 20px 20px;
-  
+}
+.hebergementcarteprix
+{
+    color: black;
+    font-weight: bold;
 }
 .hebergementprix
 {
-    
+    color: black;
     line-height: 3px;
+    font-size: small;
 }
-
+.icone_etoile_populaire
+{
+    line-height: 0.5em;
+}
 .iconetoile
 {
-    color: blue;
+    color:#0065FC ;
     line-height: 40px;
+    font-size: small;
 }
-
+.icone_etoile_Empty
+{
+    color:#F2F2F2;
+}
 .hebergementcartetitre
 {
      line-height: 1px;
@@ -256,17 +276,24 @@ header
 a{
     text-decoration: none;
 }
-
+.titre_hebergement
+{
+    padding-top: 10px;
+}
 .titrehebergement
 {
-    padding-left: 40px;
-    padding-top: 25px;
+    width: 881px;
+    height: 70px;
+    padding-bottom: 15px;
+    padding-left: 45px;
     font-size: large;
-
 }
 .afficherplusherbergement
-{
+{   display: flex;
     align-items: flex-start;
+    width: 800px;
+    color: black;
+    font-weight: bold;
 }
 
 .herbergementpopulaireimgimg
@@ -274,17 +301,15 @@ a{
     width: 130px;
     height: 135px;
     border-radius: 20px 0px 0px 20px;
-    margin-right: 20px;
-    
+    margin-right: 20px; 
+    object-fit: cover;
 }
 .hébergementPopulaire
 {   flex-direction: column;
     width:420px;
     height: 627px;
     background-color: #F2F2F2;
-    border-radius: 20px 20px 20px 20px;
-    
-    
+    border-radius: 20px 20px 20px 20px; 
 }
 .hebergement_hebergementpopulaire
 {
@@ -311,11 +336,9 @@ a{
 {
     display: flex;
     width: 343px;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    align-content: stretch;
     justify-content: space-between;
     align-items: center;
+    height: 20px;
 }
 
 
@@ -333,36 +356,43 @@ a{
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
+
 }
 .vieuxport
 {
     height: 392px;
     width: 303px;
+    object-fit: cover;
 }
 .fort
 {
     height: 180px;
     width: 303px;
+    object-fit: cover;
 }
 .ile_frioul
 {
     height: 109px;
     width: 303px;
+    object-fit: cover;
 }
 .parc
 {
     height: 392px;
     width: 303px;
+    object-fit: cover;
 }
 .notredame
 {
     height: 140px;
     width: 303px;
+    object-fit: cover;
 }
 .longchamp
 {
     width: 303px;
     height: 156px;
+    object-fit: cover;
 }
 .activité
 {
@@ -406,6 +436,7 @@ a{
     height: 165px;
     border-radius: 20px;
     box-shadow: 5px 5px 10px #F2F2F2 ;
+
 }
 .activitécarteimage_longchamp
 {
@@ -438,7 +469,12 @@ a{
 .footerliencolonne
 {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;  
+}
+.footercolonetitre
+{
+    font-weight: bold;
+    color: black;
 }
 .bordure_footer
 {
@@ -449,7 +485,8 @@ a{
 }
 .footercoloneliencolone
 {
-    color: darkgrey;
+    color: black;
+    padding-bottom: 15px;
 }
 .titreactivité
 {
