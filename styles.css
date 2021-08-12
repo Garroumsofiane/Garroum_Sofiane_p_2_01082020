@@ -47,7 +47,8 @@ header
     height: 70px;
     display: flex;
     align-items:stretch;     
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
+     border-top: 1px solid #0065FC;
 }
 .couleurbleu1
 {
@@ -63,7 +64,7 @@ header
 }
 .navbordure
 {
-    border-top: 1px solid #0065FC;
+    
 }
 .flexcentré
 {
@@ -119,6 +120,10 @@ header
    color: black;
    font-size: medium;
 }
+.btn-recherche:hover
+{
+    background-color: darkblue;
+}
 .btn-recherche
 {
     width: 138px;
@@ -128,6 +133,10 @@ header
     font-size:large;
     border: none;
 
+}
+.recherchefiltreicon:hover
+{
+    background-color: coral;
 }
 .recherchefiltre
 {
@@ -341,7 +350,10 @@ a{
     height: 20px;
 }
 
-
+.hover_cliquable:hover
+{
+    font-size: 120%;
+}
 .fa-line-chart
 {
     align-items: flex-end;
