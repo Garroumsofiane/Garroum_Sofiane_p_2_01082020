@@ -342,10 +342,10 @@ a{
     height: 20px;
 }
 
-.hover_cliquable:hover
-{
-    font-size: 120%;
-}
+
+
+    
+
 .fa-line-chart
 {
     align-items: flex-end;
@@ -567,9 +567,14 @@ a{
 {
     margin-right: 20px;
 }
+.titrehebergement
+{
+    width: auto;
+    padding-left: 0px;
+}
 .titre_hebergement
 {
-    padding-left: 120px;
+    padding-left:;
 }
 .afficherplusherbergement
 {
