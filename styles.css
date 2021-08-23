@@ -21,13 +21,17 @@ header
     align-items: center;
    
 }
-
+.herbergement_activité_lien
+{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
 .logo{
     font-size: x-large ;
 
 } 
-
-
 .flexbetween
 {
     display: flex;
@@ -155,7 +159,10 @@ header
     margin-right: 23px;
     border-left: none;
 }  
-   
+.filtre_eco_famil
+{
+    display: flex;
+}   
 .recherchefiltresfiltretitre
 {   
     height:51px ;
@@ -503,6 +510,14 @@ a{
     header
     {
         width: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .taillelien
+    {
+        
+        width: auto;
+
     }
     .hebergementcartepopulaire
     {
@@ -545,7 +560,7 @@ a{
 }
 .lien_navigation_logo
 {
-    width: auto;
+    width: 250px;
 }
 .bordure_hebergement
 {
@@ -559,10 +574,6 @@ a{
     height:auto;
     display: flex;
 }
-.hover_cliquable
-{
-
-}
 .imghebergement
 {
     margin-right: 20px;
@@ -571,10 +582,6 @@ a{
 {
     width: auto;
     padding-left: 0px;
-}
-.titre_hebergement
-{
-    padding-left:;
 }
 .afficherplusherbergement
 {
@@ -652,4 +659,122 @@ a{
 {
     align-items: center;
 }
+}
+@media screen and (max-width:555px)
+{
+    .herbergementpopulaireimgimg
+    {
+        width: 120px;
+    }
+    .hebergement_populaire_titre_icon 
+    {
+        width: 250px;
+    }
+    .imghebergement
+    {
+        width: 150px;
+    }
+
+}
+@media screen and (max-width:375px)
+{
+    header
+    {
+        width: 100%; 
+        height: 132px;
+    }
+    .lien_navigation_logo
+    {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .herbergement_activité_lien
+    {
+        width:100%;
+        order: 1;
+        align-items: center;
+        margin: 0px;
+        margin-top: 25px;
+    }  
+    .taillelien:hover
+    {
+        border-bottom: 3px solid #0065FC;
+        font-weight: bold;
+        
+    }
+    .taillelien
+    {
+        width: 50%;
+        height: 30px;
+        padding-bottom: 10px;
+    }
+    .lien:hover
+    {
+        border-bottom: 3px solid #0065FC;
+        font-weight: bold;
+       
+    }
+
+    .lien
+    {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        padding-bottom: 10px;
+    }
+    .titre_principale_phrase
+    {
+        margin-left: 10px;
+    }
+    .titreh2
+    {
+        font-size: larger;
+    }
+    .phrasedessoustitreh2
+    {
+        margin-top: 10px;
+    }
+    .recherchefiltreicon
+    {
+        margin-right: 15px;
+        margin-bottom: 13px;
+    }
+    .recherchefiltretitre
+    {
+        margin-bottom: 10px;
+    }
+    .filtre_eco_famil
+    {
+        display: flex;
+    }
+    .recherchefiltresfiltretitre
+    {
+        margin-right: 10px;
+        margin-left: 0px;
+        font-size: small;
+        font-weight: bolder;
+        color: black
+    }
+    .resultatrecherchetext
+    {
+        font-size: 0.9rem;
+    }
+    .taillefa-info
+     {
+        width: 27px;
+        height: 21px;
+        border: 2px solid #F2F2F2;
+        border-radius: 50%;
+        text-align: center;
+        margin-right: 10px;
+    }
+    .resultatrecherche
+    { 
+    display: flex;
+    align-items: baseline;
+    margin-top: 40px;
+    padding-left: 0px;
+    } 
 }
