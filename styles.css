@@ -1,6 +1,7 @@
 body
 {
-    font-family: 'Raleway', sans-serif; 
+    font-family:"raleway" , sans-serif; 
+    
 }
 
 header
@@ -119,6 +120,10 @@ header
 .btn-recherche:hover
 {
     background-color: darkblue;
+}
+.btn_loupe
+{
+    display: none;
 }
 .btn-recherche
 {
@@ -301,7 +306,7 @@ a{
     align-items: flex-start;
     width: 800px;
     color: black;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .herbergementpopulaireimgimg
@@ -484,7 +489,7 @@ a{
 }
 .footercolonetitre
 {
-    font-weight: bold;
+    font-weight: bolder;
     color: black;
 }
 .bordure_footer
@@ -707,6 +712,7 @@ a{
         width: 50%;
         height: 30px;
         padding-bottom: 10px;
+        border-bottom: 3px solid #f2f2f2;
     }
     .lien:hover
     {
@@ -723,6 +729,7 @@ a{
         align-items: center;
         height: 30px;
         padding-bottom: 10px;
+        border-bottom: 3px solid #f2f2f2;
     }
     .titre_principale_phrase
     {
@@ -731,10 +738,49 @@ a{
     .titreh2
     {
         font-size: larger;
+       
+       color: rgb(59, 59, 59);
     }
     .phrasedessoustitreh2
     {
         margin-top: 10px;
+        font-size: 0.9rem;
+    }/*
+    .barrederecherche
+    { 
+    border: 1px solid #F2F2F2;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    }
+
+    .fa-map-marker-alt
+    {
+        width: 51px;
+        height: 51px;
+        padding-top: 0px;
+        align-items:center;
+        display:flex;
+        justify-content: ;
+    }*/
+    .champ-recherche 
+    {
+        width: 231px;
+    }
+    .btn-recherche
+    {
+        display: none;
+    }
+    .btn_loupe
+    {
+        width: 51px;
+        display: block;
+        background-color: #0065FC;
+        border-radius: 25%;
+        border: none;
+    }
+    .fa-search
+    {
+        color: white;
     }
     .recherchefiltreicon
     {
@@ -776,5 +822,133 @@ a{
     align-items: baseline;
     margin-top: 40px;
     padding-left: 0px;
-    } 
+    }
+    .hebergement_hebergementpopulaire
+    {
+        margin-bottom: 0px;
+    }
+    .hebergement_populaire
+    {
+        width: 100%;
+    }
+    .hébergementPopulaire
+    {
+        padding-left: 0px;
+        width: 100%;
+        border-radius: 0px;
+    }
+    .hebergement_populaire_titre_icon
+    {
+        width:280px ;
+    }
+    .hebergementcartepopulaire
+    {
+        width: 90%;
+
+    }
+    .hebergementcartetitre1
+    {
+        font-size: 0.9rem;
+    }
+    .bordure_hebergement 
+    {
+        background-color: white;
+    }
+    .hebergement_marseille
+    {
+        justify-content: flex-start;
+    }
+    .titrehebergement
+    {
+        height: 50px;
+        font-size: medium;
+        padding-left: 10px;
+        
+    }
+    .titre_hebergement
+    {
+        padding: 0px;
+    }
+    .cartehebergement
+    {
+        width: 90%;
+        height: 200px;
+        border: 5px solid white;
+        background-color: white;
+        box-shadow: 0px 0px 8px 2px #f2f2f2;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .imghebergement
+    {
+        width: 100%;
+    }
+    .hebergementcartetitre
+    {
+        font-size: 0.9rem;
+    }
+    .afficherplusherbergement
+    {
+        padding-left: 10px;
+    }
+    .activitéimage
+    {
+        width: 100%;
+        height: 135px;
+    
+    }
+    .activitécarteimage_vieux_parc
+    {
+        height: 191px;
+        margin-bottom: 30px;
+    }
+    .activitécarteimage_fort
+    {
+        height: 191px;
+        margin-bottom: 30px;
+    }
+    .activitécarteimage_ile
+    {
+        height: 191px;
+        margin-bottom: 30px; 
+    }
+    .activitécarteimage_notre_dame
+    {
+        height: 191px;
+        margin-bottom: 30px;
+    }
+    .activitécarteimage_longchamp
+    {
+        height: 191px;
+        margin-bottom: 30px;
+    }
+    .footer
+    {
+        align-items: flex-start;
+        padding-left: 25px;
+    }
+    .footerliencolonne
+    {
+        align-items: flex-start;
+    }
+    .lien_footer
+    {
+        color: black;
+        margin-bottom: 15px;
+        font-size: smaller;
+    }
+    .bordure_footer
+    {
+        width: 100%;
+        height: 487px;
+        margin-top: 25px;
+    }
+    .footercolonetitre
+    {
+        font-size: medium;
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+    
+    
 }
