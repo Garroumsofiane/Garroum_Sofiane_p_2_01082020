@@ -24,10 +24,11 @@ header
 }
 .herbergement_activité_lien
 {
-    width: 250px;
+    width: 300px;
     display: flex;
-    justify-content: space-between;
     margin-right: 10px;
+    align-items: center;
+    margin-left: 830px;
 }
 .logo{
     font-size: x-large ;
@@ -39,15 +40,35 @@ header
     justify-content: space-between;
     align-items: center;
 }
-
+.taillelien:hover
+{
+    border-top: 3px solid #0065FC;
+}
 .taillelien
 {
-    width: 38%; 
+    width: 50%; 
     height: 70px;
     display: flex;
     align-items:center;     
-    justify-content: space-evenly;
     
+    
+}
+.lien:hover
+{
+    border-top: 3px solid #0065FC;
+}
+.lien
+{
+    width: 50%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.hover_bleu_border
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
 .couleurbleu1
 {
@@ -492,12 +513,18 @@ a{
     font-weight: bolder;
     color: black;
 }
+.lien_footer
+{
+    color: black;
+    margin-bottom: 10px;
+}
 .bordure_footer
 {
     width: 1440px;
     height: 217px;
     background-color: #F2F2F2;
     margin-top: 63px;
+    padding-top: 30px;
 }
 .footercoloneliencolone
 {
@@ -555,9 +582,13 @@ a{
 }
 .recherchefiltre
 {
-    width: auto;
+    flex-direction: column;
     height: auto;
-    flex-wrap: wrap;
+   
+}
+.recherchefiltreicon
+{
+    margin-bottom: 10px;
 }
 .titre_principale_phrase
 {
@@ -606,26 +637,26 @@ a{
 }
 .activitéimage
 {
-    width: 98%;
+    width: 100%;
     height: 150px;
 }
 .carteimage_vieux_parc
 {
-    width: auto;
-    height: 150px;
-    margin-bottom: 60px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
 }
 .activitécarteimage_fort
 {
     width: 100%;
-    height: 150px;
-    margin-bottom: 60px;
+    height: auto;
+    margin-bottom: 30px;
 }
 .activitécarteimage_vieux_parc
 {
     width: 100%;
-    height: 150px;
-    margin-bottom: 60px;
+    height: auto;
+    margin-bottom: 30px;
 }
 .bloc_fort_ile
 {
@@ -634,17 +665,17 @@ a{
 .activitécarteimage_ile
 {
     width: 100%;
-    height: 150px;
-    margin-bottom: 60px;
+    height: auto;
+    margin-bottom: 30px;
 }
 .activitécarteimage_notre_dame
 {
-    height: 150px;
-    margin-bottom: 60px;
+    height: auto;
+    margin-bottom: 30px;
 }
 .activitécarteimage_longchamp
 {
-    height: 150px;
+    height: auto;
 
 }
 .bordure_footer
@@ -664,6 +695,11 @@ a{
 {
     align-items: center;
 }
+.lien_footer
+{
+    color: black;
+    margin-bottom: 10px;
+}
 }
 @media screen and (max-width:555px)
 {
@@ -677,8 +713,20 @@ a{
     }
     .imghebergement
     {
-        width: 150px;
+        width: 100%;
     }
+    .cartehebergement
+    {
+        flex-direction: column;
+    }
+    .recherchefiltresfiltretitre
+    {
+        font-size: 0.9rem;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+   
+    
 
 }
 @media screen and (max-width:375px)
@@ -705,7 +753,7 @@ a{
     {
         border-bottom: 3px solid #0065FC;
         font-weight: bold;
-        
+        border-top: none;
     }
     .taillelien
     {
@@ -718,7 +766,7 @@ a{
     {
         border-bottom: 3px solid #0065FC;
         font-weight: bold;
-       
+        border-top: none;
     }
 
     .lien
@@ -818,10 +866,10 @@ a{
     }
     .resultatrecherche
     { 
-    display: flex;
-    align-items: baseline;
-    margin-top: 40px;
-    padding-left: 0px;
+        display: flex;
+        align-items: baseline;
+        margin-top: 40px;
+        padding-left: 0px;
     }
     .hebergement_hebergementpopulaire
     {
