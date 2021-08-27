@@ -532,6 +532,26 @@ a{
     padding-bottom: 15px;
 }
 
+@media screen and (max-width:1400px) and (min-width:375px)
+{
+    header
+    {
+        width: 100%;
+    }
+    nav
+    {
+        width: 100%;
+    }
+    .lien_navigation_logo
+    {
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .herbergement_activité_lien
+    {
+        margin-left: 20px;
+    }
+}
 @media screen and (max-width:640px)
 {
     .hebergement_hebergementpopulaire
@@ -997,7 +1017,49 @@ a{
         font-size: medium;
         margin-top: 40px;
         margin-bottom: 25px;
+    } 
+}
+@media screen and (max-width:360px)
+{
+    .champ-recherche
+    {
+        border-left-width: thin;
+        width: auto;
     }
-    
-    
+    .filtre_eco_famil
+    {
+        flex-direction: column;
+    }
+    .recherchefiltreicon
+    {
+        width: max-content;
+    }
+    .taillefa-info
+    {
+        width: 50px;
+    }
+    .hebergementcartepopulaire
+    {
+        flex-direction: column;
+        height: auto;
+    }
+    .herbergementpopulaireimgimg
+    {
+        width: 100%;
+        border-radius: 20px;
+        margin: 0px;
+    }
+    .hebergement_populaire
+    {
+        height: 1000px;
+    }
+    .hébergementPopulaire
+    {
+        height: auto;
+    }
+    .hebergement_populaire_titre_icon 
+    {
+        width: auto;
+    }
+
 }
