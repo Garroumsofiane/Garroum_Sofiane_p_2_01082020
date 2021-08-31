@@ -532,7 +532,7 @@ a{
     padding-bottom: 15px;
 }
 
-@media screen and (max-width:1400px) and (min-width:375px)
+@media screen and (max-width:1400px) and (min-width: 640px)
 {
     header
     {
@@ -554,23 +554,84 @@ a{
 }
 @media screen and (max-width:640px)
 {
+    header
+    {
+        width: 100%; 
+        height: 132px;
+    }
+    nav
+    {
+        width: 100%;
+    }
+    .lien_navigation_logo
+    {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .herbergement_activité_lien
+    {
+        width:100%;
+        order: 1;
+        align-items: center;
+        margin: 0px;
+        margin-top: 25px;
+    }  
+    .taillelien:hover
+    {
+        border-bottom: 3px solid #0065FC;
+        font-weight: bold;
+        border-top: none;
+    }
+    .taillelien
+    {
+        width: 50%;
+        height: 30px;
+        padding-bottom: 10px;
+        border-bottom: 3px solid #f2f2f2;
+    }
+    .lien:hover
+    {
+        border-bottom: 3px solid #0065FC;
+        font-weight: bold;
+        border-top: none;
+    }
+
+    .lien
+    {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        padding-bottom: 10px;
+        border-bottom: 3px solid #f2f2f2;
+    }
+    .champ-recherche 
+    {
+        width: 231px;
+    }
+    .btn-recherche
+    {
+        display: none;
+    }
+    .btn_loupe
+    {
+        width: 51px;
+        display: block;
+        background-color: #0065FC;
+        border-radius: 25%;
+        border: none;
+    }
+    .fa-search
+    {
+        color: white;
+    }
     .hebergement_hebergementpopulaire
     {
        flex-direction: column-reverse;
        width: auto;
     }
-    header
-    {
-        width: auto;
-        display: flex;
-        justify-content: center;
-    }
-    .taillelien
-    {
-        
-        width: auto;
-
-    }
+  
     .hebergementcartepopulaire
     {
         width: 98%;
@@ -615,10 +676,7 @@ a{
 {
     width: auto;
 }
-.lien_navigation_logo
-{
-    width: 250px;
-}
+
 .bordure_hebergement
 {
     width: auto;
@@ -1026,17 +1084,9 @@ a{
         border-left-width: thin;
         width: auto;
     }
-    .filtre_eco_famil
-    {
-        flex-direction: column;
-    }
     .recherchefiltreicon
     {
         width: max-content;
-    }
-    .taillefa-info
-    {
-        width: 50px;
     }
     .hebergementcartepopulaire
     {
