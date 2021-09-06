@@ -1058,7 +1058,7 @@ a
     .titre_principale_phrase
     {
         margin-left: 10px;
-        margin-left: 0px;
+       font-size: larger;
     }
     .titreh2
     {
@@ -1070,10 +1070,6 @@ a
     {
         margin-top: 10px;
         font-size: 0.9rem;
-    }
-    .barrederecherche
-    {
-        margin-left: 0px;
     }
     .champ-recherche 
     {
@@ -1098,7 +1094,7 @@ a
             /* FILTRES */
     .recherchefiltre
     {
-        margin-left: 0px;
+        margin-left: 20px;
     }
     .recherchefiltreicon
     {
@@ -1115,15 +1111,11 @@ a
     }
     .recherchefiltresfiltretitre
     {
-        margin-right: 10px;
-        margin-left: 0px;
+        margin-right: 15px;
+        margin-left: 10px;
         font-size: small;
         font-weight: bolder;
         color: black
-    }
-    .resultatrecherchetext
-    {
-        font-size: 0.9rem;
     }
     .taillefa-info
     {
@@ -1134,13 +1126,17 @@ a
         text-align: center;
         margin-right: 10px;
     }
+    .barrederecherche
+    {
+        margin-left: 10px;
+    }
     .resultatrecherche
     { 
         display: flex;
         align-items: baseline;
         margin-top: 40px;
         padding-left: 0px;
-        margin-left: 0px;
+        margin-left: 20px;
     }
             /* HEBERGEMENT A MARSEILLE ET PLUS POPULAIRE */
     .hebergement_hebergementpopulaire
